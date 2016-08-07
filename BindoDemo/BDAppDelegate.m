@@ -7,16 +7,26 @@
 //
 
 #import "BDAppDelegate.h"
+#import "BDHomepageViewController.h"
+#import "BDHomepageViewModel.h"
+#import "BDHomepageViewModel.h"
 
 @interface BDAppDelegate ()
-
+@property (nonatomic, strong) BDHomepageViewModel *homepageViewModel;
 @end
 
 @implementation BDAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.homepageViewModel = [BDHomepageViewModel new];
+    BDHomepageViewController *homePageVC = [[BDHomepageViewController alloc] initWithViewModel:self.homepageViewModel];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:homePageVC];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navigationController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

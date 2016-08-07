@@ -12,6 +12,5 @@ target 'BindoDemo' do
   pod 'CocoaAsyncSocket', '~> 7.5'
   pod 'ReactiveCocoa', '~> 2.0'
   pod 'Realm', '~> 1.0'
-  pod 'libextobjc', '~> 0.4'
   pod 'Reveal-iOS-SDK'
 end

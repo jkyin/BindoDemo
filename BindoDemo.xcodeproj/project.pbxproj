@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0441BD621D572F65008D52F9 /* BDBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD611D572F65008D52F9 /* BDBaseViewModel.m */; };
+		0441BD651D572F83008D52F9 /* BDHomepageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD641D572F83008D52F9 /* BDHomepageViewModel.m */; };
+		0441BD6E1D573342008D52F9 /* BDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD6D1D573342008D52F9 /* BDBaseViewController.m */; };
 		0449F3E21D572428009BA1AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E11D572428009BA1AE /* main.m */; };
 		0449F3E51D572428009BA1AE /* BDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E41D572428009BA1AE /* BDAppDelegate.m */; };
-		0449F3E81D572428009BA1AE /* BDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E71D572428009BA1AE /* BDViewController.m */; };
-		0449F3EB1D572428009BA1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449F3E91D572428009BA1AE /* Main.storyboard */; };
+		0449F3E81D572428009BA1AE /* BDHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E71D572428009BA1AE /* BDHomepageViewController.m */; };
 		0449F3ED1D572428009BA1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0449F3EC1D572428009BA1AE /* Assets.xcassets */; };
 		0449F3F01D572428009BA1AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0449F3EE1D572428009BA1AE /* LaunchScreen.storyboard */; };
 		D0ED4E98BC160D97B4086AAE /* Pods_BindoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759DFE2A19F27C02105ED48E /* Pods_BindoDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0441BD601D572F65008D52F9 /* BDBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewModel.h; sourceTree = "<group>"; };
+		0441BD611D572F65008D52F9 /* BDBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseViewModel.m; sourceTree = "<group>"; };
+		0441BD631D572F83008D52F9 /* BDHomepageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDHomepageViewModel.h; sourceTree = "<group>"; };
+		0441BD641D572F83008D52F9 /* BDHomepageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDHomepageViewModel.m; sourceTree = "<group>"; };
+		0441BD6C1D573342008D52F9 /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
+		0441BD6D1D573342008D52F9 /* BDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseViewController.m; sourceTree = "<group>"; };
 		0449F3DD1D572428009BA1AE /* BindoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449F3E11D572428009BA1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0449F3E31D572428009BA1AE /* BDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDAppDelegate.h; sourceTree = "<group>"; };
 		0449F3E41D572428009BA1AE /* BDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDAppDelegate.m; sourceTree = "<group>"; };
-		0449F3E61D572428009BA1AE /* BDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDViewController.h; sourceTree = "<group>"; };
-		0449F3E71D572428009BA1AE /* BDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDViewController.m; sourceTree = "<group>"; };
-		0449F3EA1D572428009BA1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0449F3E61D572428009BA1AE /* BDHomepageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDHomepageViewController.h; sourceTree = "<group>"; };
+		0449F3E71D572428009BA1AE /* BDHomepageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDHomepageViewController.m; sourceTree = "<group>"; };
 		0449F3EC1D572428009BA1AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0449F3EF1D572428009BA1AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0449F3F11D572428009BA1AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +51,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0441BD5A1D572CA7008D52F9 /* BFHomepage */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD5D1D572D61008D52F9 /* Model */,
+				0441BD5B1D572D4E008D52F9 /* View */,
+				0441BD5C1D572D5B008D52F9 /* ViewModel */,
+			);
+			name = BFHomepage;
+			sourceTree = "<group>";
+		};
+		0441BD5B1D572D4E008D52F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0449F3E61D572428009BA1AE /* BDHomepageViewController.h */,
+				0449F3E71D572428009BA1AE /* BDHomepageViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0441BD5C1D572D5B008D52F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD631D572F83008D52F9 /* BDHomepageViewModel.h */,
+				0441BD641D572F83008D52F9 /* BDHomepageViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		0441BD5D1D572D61008D52F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0441BD5E1D572F40008D52F9 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD6B1D57332F008D52F9 /* Views */,
+				0441BD5F1D572F53008D52F9 /* ViewModels */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+		0441BD5F1D572F53008D52F9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD601D572F65008D52F9 /* BDBaseViewModel.h */,
+				0441BD611D572F65008D52F9 /* BDBaseViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		0441BD6B1D57332F008D52F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD6C1D573342008D52F9 /* BDBaseViewController.h */,
+				0441BD6D1D573342008D52F9 /* BDBaseViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		0449F3D41D572428009BA1AE = {
 			isa = PBXGroup;
 			children = (
@@ -65,14 +134,8 @@
 		0449F3DF1D572428009BA1AE /* BindoDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0449F3E31D572428009BA1AE /* BDAppDelegate.h */,
-				0449F3E41D572428009BA1AE /* BDAppDelegate.m */,
-				0449F3E61D572428009BA1AE /* BDViewController.h */,
-				0449F3E71D572428009BA1AE /* BDViewController.m */,
-				0449F3E91D572428009BA1AE /* Main.storyboard */,
-				0449F3EC1D572428009BA1AE /* Assets.xcassets */,
-				0449F3EE1D572428009BA1AE /* LaunchScreen.storyboard */,
-				0449F3F11D572428009BA1AE /* Info.plist */,
+				0441BD5E1D572F40008D52F9 /* BaseClass */,
+				0441BD5A1D572CA7008D52F9 /* BFHomepage */,
 				0449F3E01D572428009BA1AE /* Supporting Files */,
 			);
 			path = BindoDemo;
@@ -81,6 +144,11 @@
 		0449F3E01D572428009BA1AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0449F3E31D572428009BA1AE /* BDAppDelegate.h */,
+				0449F3E41D572428009BA1AE /* BDAppDelegate.m */,
+				0449F3EC1D572428009BA1AE /* Assets.xcassets */,
+				0449F3EE1D572428009BA1AE /* LaunchScreen.storyboard */,
+				0449F3F11D572428009BA1AE /* Info.plist */,
 				0449F3E11D572428009BA1AE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -132,6 +200,7 @@
 		0449F3D51D572428009BA1AE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BD;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "尹晓宇";
 				TargetAttributes = {
@@ -165,7 +234,6 @@
 			files = (
 				0449F3F01D572428009BA1AE /* LaunchScreen.storyboard in Resources */,
 				0449F3ED1D572428009BA1AE /* Assets.xcassets in Resources */,
-				0449F3EB1D572428009BA1AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,23 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0449F3E81D572428009BA1AE /* BDViewController.m in Sources */,
+				0449F3E81D572428009BA1AE /* BDHomepageViewController.m in Sources */,
+				0441BD621D572F65008D52F9 /* BDBaseViewModel.m in Sources */,
+				0441BD651D572F83008D52F9 /* BDHomepageViewModel.m in Sources */,
 				0449F3E51D572428009BA1AE /* BDAppDelegate.m in Sources */,
 				0449F3E21D572428009BA1AE /* main.m in Sources */,
+				0441BD6E1D573342008D52F9 /* BDBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0449F3E91D572428009BA1AE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0449F3EA1D572428009BA1AE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0449F3EE1D572428009BA1AE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
