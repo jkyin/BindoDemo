@@ -7,9 +7,12 @@
 //
 
 #import "BDBaseViewModel.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface BDHomepageViewModel : BDBaseViewModel
-@property (nonatomic, strong) NSString *title;
 
+@property (nonatomic, strong) NSString *title;
+@property (nonatomic, strong) NSString *rightButtonTitle;
+@property (nonatomic, strong) RACCommand *executedNewOrder;
 
 @end

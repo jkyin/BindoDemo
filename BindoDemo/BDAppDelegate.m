@@ -10,6 +10,7 @@
 #import "BDHomepageViewController.h"
 #import "BDHomepageViewModel.h"
 #import "BDHomepageViewModel.h"
+#import "UIApplication+BDVendor.h"
 
 @interface BDAppDelegate ()
 @property (nonatomic, strong) BDHomepageViewModel *homepageViewModel;
@@ -19,6 +20,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [UIApplication bd_setupDDLog];
+    
+    
     self.homepageViewModel = [BDHomepageViewModel new];
     BDHomepageViewController *homePageVC = [[BDHomepageViewController alloc] initWithViewModel:self.homepageViewModel];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:homePageVC];

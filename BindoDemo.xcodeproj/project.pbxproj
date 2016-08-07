@@ -10,6 +10,8 @@
 		0441BD621D572F65008D52F9 /* BDBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD611D572F65008D52F9 /* BDBaseViewModel.m */; };
 		0441BD651D572F83008D52F9 /* BDHomepageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD641D572F83008D52F9 /* BDHomepageViewModel.m */; };
 		0441BD6E1D573342008D52F9 /* BDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD6D1D573342008D52F9 /* BDBaseViewController.m */; };
+		0441BD7C1D577A0F008D52F9 /* BDLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD7B1D577A0F008D52F9 /* BDLogFormatter.m */; };
+		0441BD801D577A66008D52F9 /* UIApplication+BDVendor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0441BD7F1D577A66008D52F9 /* UIApplication+BDVendor.m */; };
 		0449F3E21D572428009BA1AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E11D572428009BA1AE /* main.m */; };
 		0449F3E51D572428009BA1AE /* BDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E41D572428009BA1AE /* BDAppDelegate.m */; };
 		0449F3E81D572428009BA1AE /* BDHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0449F3E71D572428009BA1AE /* BDHomepageViewController.m */; };
@@ -25,6 +27,10 @@
 		0441BD641D572F83008D52F9 /* BDHomepageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDHomepageViewModel.m; sourceTree = "<group>"; };
 		0441BD6C1D573342008D52F9 /* BDBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBaseViewController.h; sourceTree = "<group>"; };
 		0441BD6D1D573342008D52F9 /* BDBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBaseViewController.m; sourceTree = "<group>"; };
+		0441BD7A1D577A0F008D52F9 /* BDLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDLogFormatter.h; sourceTree = "<group>"; };
+		0441BD7B1D577A0F008D52F9 /* BDLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDLogFormatter.m; sourceTree = "<group>"; };
+		0441BD7E1D577A66008D52F9 /* UIApplication+BDVendor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+BDVendor.h"; sourceTree = "<group>"; };
+		0441BD7F1D577A66008D52F9 /* UIApplication+BDVendor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+BDVendor.m"; sourceTree = "<group>"; };
 		0449F3DD1D572428009BA1AE /* BindoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BindoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0449F3E11D572428009BA1AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0449F3E31D572428009BA1AE /* BDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDAppDelegate.h; sourceTree = "<group>"; };
@@ -113,6 +119,25 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		0441BD791D5779F5008D52F9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD7D1D577A50008D52F9 /* Categories */,
+				0441BD7A1D577A0F008D52F9 /* BDLogFormatter.h */,
+				0441BD7B1D577A0F008D52F9 /* BDLogFormatter.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		0441BD7D1D577A50008D52F9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0441BD7E1D577A66008D52F9 /* UIApplication+BDVendor.h */,
+				0441BD7F1D577A66008D52F9 /* UIApplication+BDVendor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		0449F3D41D572428009BA1AE = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +159,7 @@
 		0449F3DF1D572428009BA1AE /* BindoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0441BD791D5779F5008D52F9 /* Utilities */,
 				0441BD5E1D572F40008D52F9 /* BaseClass */,
 				0441BD5A1D572CA7008D52F9 /* BFHomepage */,
 				0449F3E01D572428009BA1AE /* Supporting Files */,
@@ -294,7 +320,9 @@
 			files = (
 				0449F3E81D572428009BA1AE /* BDHomepageViewController.m in Sources */,
 				0441BD621D572F65008D52F9 /* BDBaseViewModel.m in Sources */,
+				0441BD7C1D577A0F008D52F9 /* BDLogFormatter.m in Sources */,
 				0441BD651D572F83008D52F9 /* BDHomepageViewModel.m in Sources */,
+				0441BD801D577A66008D52F9 /* UIApplication+BDVendor.m in Sources */,
 				0449F3E51D572428009BA1AE /* BDAppDelegate.m in Sources */,
 				0449F3E21D572428009BA1AE /* main.m in Sources */,
 				0441BD6E1D573342008D52F9 /* BDBaseViewController.m in Sources */,
